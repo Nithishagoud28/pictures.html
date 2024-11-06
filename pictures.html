@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Application Form</legend>
+    <picture>
+        <source media="(min-width:750px)" srcset="./Assets/images/Bird.jpg" height="100">
+        <source media="(min-width:400px)" srcset="./Assets/images/flowers.jpg" height="100">
+        <img src="./Assets/images/rose.jpg" alt="" height="150">
+      </picture><br></br><br>
+        <select name="options" id="options" multiple>
+            <option value="option1">Option1</option>
+            <option value="option2">option2</option>
+            <option value="option3">option3</option>
+            </option>
+          </select><br></br><br>
+          <input list="colors" name="clrs" id="clrs">
+      <datalist id="colors">
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="black"> black</option>
+      </datalist>
+      <input type="submit">
+      <input type="submit" formaction="./Day 5.html">
+      <input type="submit" value="reset" formaction="./day-4.html">
+        </fieldset>
+    </form>
+</body>
+</html>
